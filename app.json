@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/add/add",
+    "pages/detail/detail",
+    "pages/me/me",
+    "pages/mgn/mgn",
+    "pages/content/content",
+    "pages/search/search"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor": "#ffba00",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/tab_bottom_home1.png",
+        "selectedIconPath": "image/tab_bottom_home2.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "image/tab_bottom_account1.png",
+        "selectedIconPath": "image/tab_bottom_account2.png"
+      }
+    ]
+  }
+}
