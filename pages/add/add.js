@@ -6,6 +6,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    //增加两个注释看看会是什么样
     content: "无",
     imgList: [],
     imgUrl: [],
